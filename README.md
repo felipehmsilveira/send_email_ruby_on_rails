@@ -1,24 +1,29 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Sistema de envio de e-mail de conteúdo de links.
+Sistema feito em Ruby On Rails.
+Toda comunicação é feita por API.
 
-Things you may want to cover:
+Configuração da requisição:
 
-* Ruby version
+token = string
+link = string
+to    = string
 
-* System dependencies
+-------------------------------------------------------------------------------------------------------------------------------
 
-* Configuration
+TOKEN:
 
-* Database creation
+Configure seu token para sua aplicação front-end envia-lo sempre nas requisições, apenas salva uma cadeia de caracteres.
 
-* Database initialization
 
-* How to run the test suite
+LINK:
 
-* Services (job queues, cache servers, search engines, etc.)
+Mande o link que você deseja enviar para o destinatário.
 
-* Deployment instructions
 
-* ...
+TO: 
+
+Envie um email válido para receber o email.
+
+-------------------------------------------------------------------------------------------------------------------------------
